@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">ActivityCycle</string>
+    <string name="android_activity_cycle">android activity cycle</string>
 </resources>
