@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">ActivityCycle</string>
     <string name="android_activity_cycle">android activity cycle</string>
+    <string name="close">close</string>
 </resources>

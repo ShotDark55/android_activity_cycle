@@ -15,11 +15,12 @@ import androidx.core.view.WindowInsetsCompat;
 public class MainActivity extends AppCompatActivity {
 
 
-    ImageView btnInfo;
+    ImageView btnInfo,btnClose;
     Context context;
     private void setup() {
         context = this;
         btnInfo = findViewById(R.id.btnInfoID);
+        btnClose = findViewById(R.id.closeID);
     }
 
     private void display(String msg) {
@@ -51,12 +52,18 @@ public class MainActivity extends AppCompatActivity {
 
         });
 
+
+        btnClose.setOnClickListener(View-> {
+            finish();
+        });
+
     }
 
     @Override
     protected void onStart() {
         super.onStart();
         display("onStart");
+
     }
 
 
